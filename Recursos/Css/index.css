@@ -1,0 +1,101 @@
+/*
+Loguin App
+*/
+
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden !important;
+}
+
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+
+.box .row.header {
+    flex: 0 1 auto;
+    /* The above is shorthand for:
+    flex-grow: 0,
+    flex-shrink: 1,
+    flex-basis: auto
+    */
+    /* border-radius: ; */
+}
+
+.box .row.content {
+    flex: 1 1 auto;
+    margin: 0px !important;
+}
+
+.box .row.footer {
+    flex: 0 1 40px;
+}
+
+.Lateral{
+    background-image: url('../Imagenes/LateralFull.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Josefin Sans Bold' !important;
+}
+
+.tarjeta-inicio{
+    width: 50% !important;
+    margin-left: 20%;
+    font-family: 'Josefin Sans Bold' !important;
+    border: solid 0.5px #fc7323 !important;
+    border-radius: 26px !important;
+    box-shadow: -11px 10px #fc7323;
+}
+
+.texto-inicial{
+    font-family: 'Josefin Sans Bold' !important;
+    color: #fc7323;
+}
+
+.formulario-login{
+    margin: 6px;
+    padding: 6px;
+}
+
+.campo-user{
+    border-radius: 26px !important;
+    border: solid 0.5px #fc7323 !important;
+}
+
+.texto-recuperar{
+   color: #fc7323 !important; 
+}
+
+.boton-ingreso{
+    background-color: #fc7323 !important;
+    color: white !important;
+    width: 70%;
+    border-radius: 26px !important;
+}
+
+.link-registro{
+    color: #fc7323 !important;
+    font-family: 'Josefin Sans Bold' !important;
+}
+
+
+@font-face {
+    font-family: 'Josefin Sans Bold';
+    src: url('../Fuentes/Fonts/JosefinSans-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Josefin Sans Light';
+    src: url('../Fuentes/Fonts/JosefinSans-Light.ttf');
+    font-weight: 'Light';
+}
+
+@font-face {
+    font-family: 'Josefin Sans Thin';
+    src: url('../Fuentes/Fonts/JosefinSans-Thin.ttf');
+    font-weight: Thin;
+}
